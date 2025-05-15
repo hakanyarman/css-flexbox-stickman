@@ -1,9 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .stickman-container {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
 }
 
 .head {
@@ -96,12 +104,10 @@
 .body {
   display: flex;
   justify-content: center;
-  width: 30rem;
-  height: 15rem;
 }
 
 .body-main {
-  height: 15rem;
+  height: 12rem;
   width: 10rem;
   border: 1px solid black;
   background-color: rgb(97, 32, 32);
@@ -124,7 +130,6 @@
 }
 
 .legs {
-  height: 15rem;
   width: 9rem;
   display: flex;
   justify-content: space-between;
@@ -143,7 +148,7 @@
 }
 
 .leg {
-  height: 15rem;
+  height: 18rem;
   width: 2rem;
   background-color: rgb(67, 67, 16);
   border: 1px solid black;
